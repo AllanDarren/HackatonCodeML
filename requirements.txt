@@ -1,0 +1,15 @@
+# requirements.txt (dépendances communes, cross-platform)
+# IMPORTANT: Ne pas mettre torch/torchvision/torchaudio ici
+# car l'installation dépend de la machine (CUDA sur Windows NVIDIA vs macOS).
+
+numpy
+pandas
+matplotlib
+pillow
+scikit-image
+scikit-learn
+opencv-python
+
+# Notebooks (si vous utilisez Jupyter/PyCharm notebooks)
+ipykernel
+jupyter
