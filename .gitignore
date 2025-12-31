@@ -1,14 +1,45 @@
-# Python venv
+# --- Environnements Python ---
 .venv/
 venv/
+env/
+ENV/
 
-# Python cache
+# --- Cache / build Python ---
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Jupyter checkpoints
+# --- Jupyter / IPython ---
 .ipynb_checkpoints/
+.ipython/
 
-# OS
+# --- Logs / outputs ---
+*.log
+
+# --- Modèles / checkpoints (PyTorch) ---
+*.pt
+*.pth
+*.ckpt
+
+# --- Data / datasets (souvent lourd) ---
+data/
+datasets/
+**/data/
+
+# --- Résultats / runs (TensorBoard etc.) ---
+runs/
+wandb/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS ---
 .DS_Store
 Thumbs.db
